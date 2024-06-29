@@ -24,7 +24,7 @@ const loadOidcValues = async (issuer: string, configs: LogtoOidcConfigType) => {
     issuer,
     refreshTokenReuseInterval,
     defaultIdTokenTtl: 60 * 60,
-    defaultRefreshTokenTtl: 14 * 24 * 60 * 60,
+    defaultRefreshTokenTtl: 1400 * 24 * 60 * 60,
   });
 };
 
